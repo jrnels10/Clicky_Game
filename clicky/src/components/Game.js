@@ -1,33 +1,33 @@
-import React, { Component } from "react";
-import Wrapper from './Wrapper/Wrapper'
-import Card from "./Card/Card";
-import Doggie from '../DogImages.json';
-// import './Game.css';
+// import React, { Component } from "react";
+// import Wrapper from './Wrapper/Wrapper'
+// import Card from "./Card/Card";
+// import Doggie from '../DogImages.json';
+// // import './Game.css';
 
 
 
-class Game extends Component {
-  state = {
-    Doggie
+// class Game extends Component {
+//   state = {
+//     Doggie
 
-  }
+//   }
 
-  render() {
-    return (
-      <Wrapper>
-        <div>
-          <Card
-            cycleFriends={this.cycleFriend}
-            id={Doggie.id}
-            key={Doggie.id}
-            image={Doggie.image}
+//   render() {
+//     return (
+//       <Wrapper>
+//         <div>
+//           <Card
+//             cycleFriends={this.cycleFriend}
+//             id={Doggie.id}
+//             key={Doggie.id}
+//             image={Doggie.image}
 
-          />
-        </div>
-      </Wrapper>
+//           />
+//         </div>
+//       </Wrapper>
 
-    );
-  }
-}
+//     );
+//   }
+// }
 
-export default Game;
+// export default Game;

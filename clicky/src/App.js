@@ -1,8 +1,8 @@
-import Navbar from '../src/components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import React, { Component } from "react";
 import FriendCard from "../src/components/Card/Card";
 import friends from './DogImages.json';
-import ShuffleArray from './components/Shuffle';
+import ShuffleArray from './components/Shuffle/Shuffle';
 
 
 // ========= Dont quite understand component ========//
