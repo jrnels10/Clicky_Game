@@ -34,5 +34,17 @@
     {
         "id": 9,
         "image": "https://images.pexels.com/photos/544269/pexels-photo-544269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    },
+    {
+        "id": 10,
+        "image": "https://images.pexels.com/photos/14644/pexels-photo-14644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    },
+    {
+        "id": 11,
+        "image": "https://images.pexels.com/photos/169524/pexels-photo-169524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    },
+    {
+        "id": 12,
+        "image": "https://images.pexels.com/photos/37401/dog-cute-pet.jpg?auto=compress&cs=tinysrgb&dpr=2&h=350"
     }
 ]

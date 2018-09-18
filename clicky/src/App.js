@@ -2,21 +2,7 @@ import Navbar from '../src/components/Navbar';
 import React, { Component } from "react";
 import FriendCard from "../src/components/Card/Card";
 import friends from './DogImages.json';
-
-// const match = [];
-
-
-function shuffleArray(array) {
-  let i = array.length - 1;
-  for (; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    const temp = array[i];
-    array[i] = array[j];
-    array[j] = temp;
-  }
-  // console.log(array)
-  return array;
-}
+import ShuffleArray from './components/Shuffle';
 
 
 // ========= Dont quite understand component ========//
@@ -31,9 +17,9 @@ class App extends Component {
   ScoreBoard = (id) => {
     if (this.state.match.includes(id)) {
       console.log('match: ' + id)
-      this.setState({highscore:this.state.count})
-      this.setState({count: 0, match:[]})
-     
+      this.setState({ highscore: this.state.count })
+      this.setState({ count: 0, match: [] })
+
     }
     else {
 
@@ -43,7 +29,7 @@ class App extends Component {
   }
 
   ShuffleFriend = id => {
-    shuffleArray(this.state.friends);
+    ShuffleArray(this.state.friends);
     this.ScoreBoard(id)
     console.log('Dogtag:' + id)
     this.setState({ friends });
@@ -56,7 +42,6 @@ class App extends Component {
   render() {
     return (
       <div>
-
         <Navbar
           currentscore={this.state.count}
           highscore={this.state.highscore}
